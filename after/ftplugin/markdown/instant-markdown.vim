@@ -184,5 +184,5 @@ if g:instant_markdown_autostart
         au BufwinEnter <buffer> call s:pushMarkdown()
     aug END
 else
-    command! -buffer InstantMarkdownPreview call s:previewMarkdown()
+    command! -buffer MarkdownPreview call s:previewMarkdown()
 endif
